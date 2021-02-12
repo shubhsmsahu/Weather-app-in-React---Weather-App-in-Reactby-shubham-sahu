@@ -21,8 +21,8 @@ function App() {
 
     <div className="App">
       <CityInput city={city} setCity={setCity} fechCityWeather={fechCityWeather} />
-      {/* use city weather datato show it  on the screen */}
-      <CityWeather/>
+      {/* use city weather data to show it  on the screen */}
+      <CityWeather cityWeather={cityWeather}/>
     </div>
   );
 }
