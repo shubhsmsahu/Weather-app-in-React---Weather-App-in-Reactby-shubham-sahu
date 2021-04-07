@@ -10,7 +10,7 @@ function App() {
   const[cityWeather,setCityWeather] = React.useState({});
 
   const fechCityWeather =()=> {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=678fd9c8e7649b6bc66a8f6e86ad22b2`
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=8251daafd0aa950458f5fc596ab1d26d`
     ).then((res)=>res.json())
      .then((result)=>{
         // console.log("result is result",result);
