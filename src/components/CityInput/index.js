@@ -15,9 +15,9 @@ const CityInput = ({city,setCity,fechCityWeather}) => {
             // alert("City is empty");
             setError("city field is empty");
         }else {
-            setCity("");
             // make api call
-            fechCityWeather()
+            fechCityWeather();
+             setCity("");
         }
     }
 
